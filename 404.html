@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Page Not Found</title>
-  </head>
-  <body>
-    <h1>Oops! Page Not Found</h1>
-    <p>We're sorry, but the page you requested could not be found.</p>
-    <p>Please check the URL and try again, or use the search bar below to search for the content you are looking for:</p>
-    <form action="https://github.com/LingoBotics/LingoBotics.github.io/search" method="get">
-      <input type="text" name="oops" placeholder="Search...">
-      <button type="submit">Go</button>
-    </form>
-    <p>You can also return to the <a href="https://github.com/LingoBotics/LingoBotics.github.io">home page</a> to browse our site.</p>
-  </body>
+<head>
+	<title>404 Page Not Found</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background-color: #f1f1f1;
+			font-family: Arial, sans-serif;
+			background-image: url('https://github.com/LingoBotics/LingoBotics.github.io/raw/main/assets/images/github_background.jpg');
+			background-size: cover;
+			background-position: center;
+		}
+
+		.container {
+			text-align: center;
+			color: #fff;
+		}
+
+		.container img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.container h1 {
+			font-size: 36px;
+			margin-top: 20px;
+		}
+
+		.container p {
+			font-size: 18px;
+			margin-top: 10px;
+		}
+
+		.container a {
+			color: #0366d6;
+			text-decoration: none;
+		}
+
+		.container a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="error_image.jpg" alt="Error Image">
+		<h1>404 - Page Not Found</h1>
+		<p>The page you are looking for does not exist.</p>
+		<p>Go back to the <a href="https://github.com/LingoBotics/LingoBotics.github.io/tree/main">LingoBotics GitHub repository</a>.</p>
+	</div>
+</body>
 </html>
